@@ -1,6 +1,0 @@
-{
-  "buildCommand": "npm run build",
-  "outputDirectory": "Project_Portfolio/dist",
-  "rootDirectory": "Project_Portfolio",
-  "framework": "vite"
-}
