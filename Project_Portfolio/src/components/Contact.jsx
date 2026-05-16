@@ -25,8 +25,8 @@ const Contact = () => {
     setLoading(true)
 
     try {
-      const apiUrl = import.meta.env.VITE_API_URL
-      await axios.post("https://portfolio-website-4mup.onrender.com/api/contact", form)
+  await axios.post(
+    "https://portfolio-website-4mup.onrender.com/api/contact", form)
       alert('Message Sent Successfully')
 
       setForm({
